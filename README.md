@@ -44,5 +44,5 @@ If you happen to update, please make a pull request for others to benefit, thank
 
 Any copy's please credit!
 
-Any [Donations](https://www.paypal.com/paypalme/sealshopper?country.x=GB&locale.x=en_GB) appreatiated!
+Any [Donations](https://www.paypal.com/paypalme/tappln) appreatiated!
 
