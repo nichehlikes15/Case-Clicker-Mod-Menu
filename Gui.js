@@ -152,7 +152,7 @@ details summary ~ * {
     bodyDiv.appendChild(footer);
     footer.style.fontSize = '0.9rem';
     footer.style.paddingBottom = '5px';
-    footer.innerHTML = (`<span><br>Cheats by <a style="color: lightblue" href="https://github.com/Your-Trash-kid">Your Trash Kid</a></span>`);
+    footer.innerHTML = (`<span><br>Cheats by <a style="color: lightblue" href="https://github.com/nichehlikes15">nichehlikes15</a></span>`);
 
     function reactHandler() {
         return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
@@ -172,7 +172,7 @@ details summary ~ * {
             },
             'Give Item': () => {
                 async function checkGithubFile(Item) {
-                    const response = await fetch('https://raw.githubusercontent.com/Your-Trash-kid/Case-Clicker-Mod-Menu/main/ItemList.txt');
+                    const response = await fetch('https://raw.githubusercontent.com/nichehlikes15/Case-Clicker-Mod-Menu/main/ItemList.txt');
                     const contents = await response.text();
                     const lines = contents.split('\n');
                     let found = false;
@@ -269,7 +269,7 @@ details summary ~ * {
                 }
             },
             'Inject Modded Game Script': () => {
-                fetch('https://raw.githubusercontent.com/Your-Trash-kid/Case-Clicker-Mod-Menu/main/GameScripts/ModdedGameScript.js')
+                fetch('https://raw.githubusercontent.com/nichehlikes15/Case-Clicker-Mod-Menu/main/GameScripts/ModdedGameScript.js')
                 .then(response => {
                     if (!response.ok) {
                     throw new Error(`Failed to fetch file: ${response.statusText}`);
